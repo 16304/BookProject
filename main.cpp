@@ -3,6 +3,10 @@
 using namespace std;
 
 int main()
+
+//Book Project - C++ Library System
+//Created for assignment submission by: sam
+
 {
     Book library[5];
 
@@ -75,6 +79,7 @@ int main()
         if (!found && (choice == 1 || choice == 2)) {
             cout << "Book not found!" << endl;
         }
+        cout << "Invalid choice. Please try again.\n";
     }
 
     return 0;
